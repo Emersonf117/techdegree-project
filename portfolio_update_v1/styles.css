@@ -22,7 +22,20 @@ a:hover {
 }
 
 /* Section Styles */
+/*.ex-nav {
+  width: 100%;
+  background: lightblue;
+  min-height:20px;
+  padding: 10px;
+  position: fixed;
+  text-align:center;
 
+}
+.nav1{
+  display: flex;
+
+}
+*/
 .main-nav {
   width: 100%;
   background: black;
