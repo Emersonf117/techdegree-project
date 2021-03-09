@@ -57,7 +57,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color:white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -84,8 +84,8 @@ header {
   width: 150px;
   height: 150px;
   border-radius: 30px;
-  border-style: 30px 30px solid black;
   transition: all .20s;
+  border-style:solid;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(10deg);
@@ -108,6 +108,7 @@ header .profile-image:hover {
   border-radius: 20px;
   display: table;
   margin: 10px auto;
+  border-style:solid;
 } 
 .location {
   background-color:black;
@@ -163,45 +164,25 @@ p.tag2{
     transition: all .5s;
     
     }
-    .card2 {
-      margin: 30px;
-      padding: 10px 40px 40px;
-      width: 90%;
-      text-align: center;
-      background-image:url("images/piano.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-bottom: 4px solid #ccc;
-      border-radius: 6px;
-      transition: all .5s;
-      
-      }
   
   /*ParagraphBackGroundCard*/
-  #pbackg, #pbackg1, #pbackg2{
+  .pbackg, .pbackg1, .pbackg2{
     background-color: white;
     border-radius: 40px;
     font-weight: bold;
     padding: 5px;
+    border-style:solid;
   }
   
   /*ParagraphGoalsCard*/
-  #pg, #pg1{
+  .pg, .pg1{
     background-color: white;
     border-radius: 40px;
     font-weight: bold;
     padding: 10px;
+    border-style:solid;
 
   }
-  /*ParagraphHobbyCard*/
-#ph, #ph1, #ph2, #ph3{
-  background-color: white;
-    border-radius: 40px;
-    font-weight: bold;
-    padding: 20px;
-
-
-}
 
 .card:hover {
   border-color: #ff99ff;
@@ -360,7 +341,7 @@ a.social:hover {
   background-size: cover;
   
 }
-#ex1{
+.ex1{
   border: 2px solid black;
   background-color: white;
   border-radius: 20px;
@@ -370,7 +351,7 @@ a.social:hover {
   font-weight: bold;
 
 }
-#ex2{
+.ex2{
   border: 2px solid black;
   background-color: white;
   border-radius: 20px;
@@ -395,6 +376,87 @@ a.social:hover {
   
   
 }
+
+/*Hobbys*/
+.hobby {
+  background-color: #efefef;
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
+  display: table;
+  margin: 10px auto;
+  border-style: solid;
+} 
+.hobby1{
+  color: white;
+  border-radius: 6px;
+  border-style: solid;
+  background-color: black;
+}
+.card2 {
+  margin: 30px;
+  padding: 10px 40px 40px;
+  width: 90%;
+  text-align: center;
+  background-image:url("images/book.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  
+  }
+  .ph, .ph1, .ph2, .ph3{
+    background-color: white;
+      border-radius: 40px;
+      font-weight: bold;
+      padding: 20px;
+      border-style:solid;
+  }
+  .header1{
+    text-align: center;
+    background: url("images/camera.jpg") no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+
+  }
+    /*Contact*/
+  .contact{
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    display: table;
+    margin: 10px auto;
+    border-style: solid;
+  }
+  .header3{
+    background: url("images/penandpaper.webp") no-repeat top center;
+  }
+  
+  .card3 {
+    margin: 30px;
+    padding: 10px 40px 40px;
+    width: 90%;
+    text-align: center;
+    background-image:url("images/oldletter.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+    
+    }
+    .ph{
+      background-color: white;
+        border-radius: 40px;
+        font-weight: bold;
+        padding: 20px;
+        border-style:solid;
+        list-style-type: none;
+    }
+
 
 
 
